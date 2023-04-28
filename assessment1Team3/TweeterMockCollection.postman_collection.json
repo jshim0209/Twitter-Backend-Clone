@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "d84356f4-ee95-4302-b3ed-316f8fae66ce",
+		"name": "TweeterMockCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19781391"
+	},
+	"item": [
+		{
+			"name": "Get all tweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tweets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get tweet by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/tweets/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tweets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user followers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users/@therealmc/followers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"@therealmc",
+						"followers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user following",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users/@Tarnished/following",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"@Tarnished",
+						"following"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
